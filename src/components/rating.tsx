@@ -9,6 +9,7 @@ export interface RatingProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 
   value?: number
   max?: number
   onValueChange?: (value: number) => void
+  readOnly?: boolean
   size?: "sm" | "md" | "lg"
 }
 
